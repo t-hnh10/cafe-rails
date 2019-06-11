@@ -1,0 +1,8 @@
+th {
+    @include font-settings($font-fam: $font-fam-heading, $size: 2.5em);
+    font-weight: lighter;
+}
+
+td {
+    @include font-settings;
+}

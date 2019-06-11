@@ -1,0 +1,8 @@
+h1 {
+    @include font-settings($font-fam: $font-fam-heading, $size: 2.5em);
+    width: 100%;
+}
+
+.container {
+    @include flex-center;
+}
